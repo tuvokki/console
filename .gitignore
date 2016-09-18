@@ -1,3 +1,9 @@
+#project specific 
+out/
+test/
+out*.log
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -87,3 +93,4 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
