@@ -1,0 +1,17 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run start:forever",
+    "start:forever": "forever index.js",
+    "start:once": "node index.js"
+  },
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.4",
+    "http-proxy": "^1.16.2",
+    "mockserver": "^1.6.2"
+  }
+}
